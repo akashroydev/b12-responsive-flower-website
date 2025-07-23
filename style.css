@@ -1,3 +1,4 @@
+/**----common style----**/
 *{
     margin: 0%;
     padding: 0%;
@@ -9,6 +10,8 @@
 header{
     padding: 20px 0 0 0;
 }
+
+/**----nav style----**/
 .nav-items{
     display: flex;
     justify-content: space-between;
@@ -17,7 +20,7 @@ header{
 .nav-items ul{   
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 50px;
 }
 .nav-items ul a{
     text-decoration: none;
@@ -26,16 +29,51 @@ header{
 
 
 
-
-.always-fresh-section{
+/**----banner style----**/
+.our-plants{
+    margin-top: 50px;
+}
+.banner{
     display: flex;
     align-items: center;
     margin-top: 120px;
 }
-.always-fresh-section .left-div h1{
+.banner .left-div h1{
     font-weight: 700;
     font-size: 65px;
 }
-.always-fresh-section .left-div p{
+.banner .left-div p{
     font-size: 22px;
 }
+.our-plants{
+    text-align: center;
+}
+.btn{
+    background-color: #E95A08;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 20px 80px 20px 80px;
+    margin-top: 10px;
+}
+.usd{
+    line-height: 30px;
+}
+.Lily-Blossom{
+    line-height: 30px;
+}
+.card{
+    line-height: 40px;
+}
+.card p{
+    font-size: 22px;
+    font-weight: 700;
+}
+.card-praimary{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    margin-top: 20px;
+}
+
+
