@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    max-width: 1250px;
+    margin: auto;
+}
+header{
+    padding: 20px 0 0 0;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items ul{   
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-items ul a{
+    text-decoration: none;
+}
+
+
+
+
+
+.always-fresh-section{
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+}
+.always-fresh-section .left-div h1{
+    font-weight: 700;
+    font-size: 65px;
+}
+.always-fresh-section .left-div p{
+    font-size: 22px;
+}
